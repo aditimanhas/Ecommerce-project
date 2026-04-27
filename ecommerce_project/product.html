@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" >
+</head>
+<body>
+
+    <header class="navbar">
+    <div class="logo">URBAN<span>WEAR</span></div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    <a href="cart.html" class="cart">
+    <i class="fa-solid fa-cart-arrow-down"></i>
+    <sup>0</sup>
+    </a>
+    </div>
+</header>
+
+<section class="products"> 
+    <h2>PRODUCTS</h2> 
+    <p>Best picks for you. Premium quality, unbeatable style.</p>
+
+    <div class="filters">
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="T-Shirt">T-Shirt</option>
+        <option value="Hoodie">Hoodie</option>
+        <option value="Jacket">Jacket</option>
+        <option value="Jeans">Jeans</option>
+        <option value="Sneakers">Sneakers</option>
+    </select>
+    <select id="priceFilter">
+        <option value="all">All Prices</option>
+        <option value="1000">Below ₹1000</option>
+        <option value="1500">Below ₹1500</option>
+        <option value="2000">Below ₹2000</option>
+        <option value="3000">Below ₹3000</option>
+    </select>
+</div>
+
+
+<div class="product-grid" id="productGrid"></div>
+<a href="index.html"><button class="view-btn">GO BACK →</button></a>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>URBAN<span>WEAR</span></h2>
+            <p>Stay stylish, stay confident. Premium quality clothing for every occasion.</p>
+
+            <div class="socials">
+                <i class="fa-solid fa-book"></i>
+                <i class="fa-regular fa-camera"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-solid fa-thumbtack"></i>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Categories</li>
+                <li>Cart</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Help</h3>
+            <ul>
+                <li>Track Order</li>
+                <li>Returns</li>
+                <li>Shipping</li>
+                <li>FAQ</li>
+                <li>Size Guide</li>
+            </ul>
+        </div>
+
+        <div class="footer-box">
+            <h3>Newsletter</h3>
+            <p>Subscribe to get special offers and updates.</p>
+
+            <div class="newsletter">
+                <input type="email" placeholder="Enter your email">
+                <button>➤</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 UrbanWear. All rights reserved.</p>
+    </div>
+
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
